@@ -1,9 +1,9 @@
 import React from "react"
-
+import react_logo from "../assets/reactjs_icon.png"
 export default function Navbar() {
     return (
         <nav className="navbar">
-            <img src="src/assets/reactjs-icon.png" />
+            <img src={react_logo} />
             <h3 >ReactFacts</h3>
             <h4>React Course - Project 1</h4>
         </nav>
